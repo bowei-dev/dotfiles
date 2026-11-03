@@ -85,6 +85,8 @@
     defaultCommand = "fd --type f";
   };
 
+  programs.pi-coding-agent.enable = true;
+
   programs.uv = {
     enable = true;
     python = {
